@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d2ba348-2cbc-4ac4-bd79-5e4e80cccddb" name="Changes" comment="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\apache-maven-3.6.3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2j0HdvnunhVlLtXWH5AhrXmsdoy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JwtUtil.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScheduleTasksTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SmsServiceImplTest.sendCode.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lease [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lease [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lease [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdminWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AppWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ee493689&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project/spring$springboot/lease/lease&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\spring$springboot\lease\lease\web\web-app\src\main\java" />
+      <recent name="D:\project\spring$springboot\lease\lease\web\web-app\src\main\resources" />
+      <recent name="D:\project\spring$springboot\lease\lease\common\src\main\java" />
+      <recent name="D:\project\spring$springboot\lease\lease\web\web-admin\src\main\java" />
+      <recent name="D:\project\spring$springboot\lease\lease\web\web-admin\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu.lease.web.app.service.impl" />
+      <recent name="com.atguigu.lease.web.admin.schedule" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminWebApplication">
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.lease.common.utils.JwtUtil" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.lease.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduleTasksTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.lease.web.admin.schedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.lease.web.admin.schedule" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.lease.web.admin.schedule.ScheduleTasksTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsServiceImplTest.sendCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.lease.web.app.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.lease.web.app.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.lease.web.app.service.impl.SmsServiceImplTest" />
+      <option name="METHOD_NAME" value="sendCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.lease.AdminWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="web-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.lease.AppWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.lease.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AppWebApplication" />
+        <item itemvalue="JUnit.SmsServiceImplTest.sendCode" />
+        <item itemvalue="Application.JwtUtil" />
+        <item itemvalue="JUnit.ScheduleTasksTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d2ba348-2cbc-4ac4-bd79-5e4e80cccddb" name="Changes" comment="" />
+      <created>1720517166815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720517166815</updated>
+      <workItem from="1720517168029" duration="2062000" />
+      <workItem from="1720532434735" duration="8541000" />
+      <workItem from="1720593036265" duration="13028000" />
+      <workItem from="1720839459598" duration="2855000" />
+      <workItem from="1720842331222" duration="22565000" />
+      <workItem from="1721011307059" duration="5480000" />
+      <workItem from="1721016810876" duration="17856000" />
+      <workItem from="1721115976421" duration="40185000" />
+      <workItem from="1721235788472" duration="611000" />
+      <workItem from="1721285366492" duration="46201000" />
+      <workItem from="1721457704142" duration="3420000" />
+      <workItem from="1721461129058" duration="20248000" />
+      <workItem from="1721544614064" duration="10006000" />
+      <workItem from="1721554882307" duration="15520000" />
+      <workItem from="1721635073572" duration="4032000" />
+      <workItem from="1721639117151" duration="1943000" />
+      <workItem from="1721641071252" duration="1318000" />
+      <workItem from="1721642404373" duration="7551000" />
+      <workItem from="1721729105087" duration="1000" />
+      <workItem from="1721896198903" duration="1000" />
+      <workItem from="1721908273645" duration="171000" />
+      <workItem from="1721926378971" duration="1458000" />
+      <workItem from="1721975437281" duration="1418000" />
+      <workItem from="1722156204960" duration="38000" />
+      <workItem from="1722156251841" duration="1058000" />
+      <workItem from="1722157321969" duration="28000" />
+      <workItem from="1722157358050" duration="1529000" />
+      <workItem from="1722158898871" duration="317000" />
+      <workItem from="1722161557453" duration="18000" />
+      <workItem from="1722161611022" duration="89000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
+      <option name="closed" value="true" />
+      <created>1722157548656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722157548656</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
+      <option name="closed" value="true" />
+      <created>1722158012356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722158012356</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
+      <option name="closed" value="true" />
+      <created>1722158409030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722158409030</updated>
+    </task>
+    <task id="LOCAL-00004" summary="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
+      <option name="closed" value="true" />
+      <created>1722159073688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722159073688</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/service/SystemUserService.java</url>
+          <line>18</line>
+          <properties class="com.atguigu.lease.web.admin.service.SystemUserService" method="getSystemUserById">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="List&lt;LabelInfo&gt;" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
