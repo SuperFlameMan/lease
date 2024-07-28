@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d2ba348-2cbc-4ac4-bd79-5e4e80cccddb" name="Changes" comment="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
-      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SuperFlameMan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:SuperFlameMan/lease.git&quot;,
+    &quot;accountId&quot;: &quot;7ac1a96d-aefc-4060-9ac2-15eb45c8dc61&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -59,7 +71,7 @@
     &quot;Spring Boot.AppWebApplication.executor&quot;: &quot;Run&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ee493689&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/project/spring$springboot/lease/lease&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -219,6 +231,7 @@
       <workItem from="1722158898871" duration="317000" />
       <workItem from="1722161557453" duration="18000" />
       <workItem from="1722161611022" duration="89000" />
+      <workItem from="1722161711922" duration="1756000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
       <option name="closed" value="true" />
@@ -252,7 +265,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722159073688</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
+      <option name="closed" value="true" />
+      <created>1722161918622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722161918622</updated>
+    </task>
+    <task id="LOCAL-00006" summary="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
+      <option name="closed" value="true" />
+      <created>1722163360401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722163360401</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

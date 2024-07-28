@@ -22,7 +22,7 @@ spring:
 
       port: 6379
       database: 0
-#用于打印框架生成的sql语句，便于调试
+#用于打印框架生成的sql语句
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
