@@ -1,6 +1,7 @@
 package com.atguigu.lease.web.admin.custom.config;
 
-import com.atguigu.lease.web.admin.custom.config.converter.StringToBaseEnumConverter;
+
+import com.atguigu.lease.web.admin.custom.converter.StringToBaseEnumConverter;
 import com.atguigu.lease.web.admin.custom.interceptor.AuthenticationInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

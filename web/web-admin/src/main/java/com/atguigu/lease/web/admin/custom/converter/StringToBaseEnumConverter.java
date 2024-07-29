@@ -1,4 +1,4 @@
-package com.atguigu.lease.web.admin.custom.config.converter;
+package com.atguigu.lease.web.admin.custom.converter;
 
 import com.atguigu.lease.model.enums.BaseEnum;
 import org.springframework.core.convert.converter.Converter;

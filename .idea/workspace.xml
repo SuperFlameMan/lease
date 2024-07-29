@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2ba348-2cbc-4ac4-bd79-5e4e80cccddb" name="Changes" comment="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
+    <list default="true" id="4d2ba348-2cbc-4ac4-bd79-5e4e80cccddb" name="Changes" comment="配置阿里云短信服务访问密钥并优化应用日志打印设置本次提交对`application.yml`文件进行了如下修改：&#10;- 添加了阿里云短信服务的访问密钥`access-key-id`和`access-key-secret`。&#10;- 修改了日志打印配置，去掉了用于调试的注释，并更新了日志实现类为`StdOutImpl`。此外，还对`.idea/workspace.xml`文件进行了修订，更新了GitHub拉取请求的过滤条件和选定的URL及账户ID，以及重置了工作区的一些其他设置。通过这些改动，我们优化了应用的配置，增强了日志记录的能力，并确保了阿里云短信服务的正常使用。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/custom/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/custom/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/custom/converter/StringToBaseEnumConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/lease/web/admin/custom/converter/StringToBaseEnumConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-app/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -231,7 +234,8 @@
       <workItem from="1722158898871" duration="317000" />
       <workItem from="1722161557453" duration="18000" />
       <workItem from="1722161611022" duration="89000" />
-      <workItem from="1722161711922" duration="1756000" />
+      <workItem from="1722161711922" duration="4132000" />
+      <workItem from="1722255431407" duration="2003000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。">
       <option name="closed" value="true" />
@@ -281,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722163360401</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="配置阿里云短信服务访问密钥并优化应用日志打印设置本次提交对`application.yml`文件进行了如下修改：&#10;- 添加了阿里云短信服务的访问密钥`access-key-id`和`access-key-secret`。&#10;- 修改了日志打印配置，去掉了用于调试的注释，并更新了日志实现类为`StdOutImpl`。此外，还对`.idea/workspace.xml`文件进行了修订，更新了GitHub拉取请求的过滤条件和选定的URL及账户ID，以及重置了工作区的一些其他设置。通过这些改动，我们优化了应用的配置，增强了日志记录的能力，并确保了阿里云短信服务的正常使用。">
+      <option name="closed" value="true" />
+      <created>1722163620886</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722163620886</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +336,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -343,7 +360,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目并创建初始的代码结构&#10;&#10;本次提交包括以下内容：&#10;- 创建了.gitignore文件，用于指定构建过程中需要忽略的文件和目录。&#10;- 创建了多个Java类和配置文件，包括Spring Boot的主应用类、公寓信息管理的控制器和服务类等。&#10;- 添加了MyBatis相关的Mapper接口和XML配置文件，用于数据库操作。&#10;-定义了多个VO（Value Object）类，用于在应用程序中传递数据。&#10;- 配置了AliyunSMSProperties和AliyunSMSPropertiesConfiguration类，用于配置和管理阿里云短信服务。&#10;&#10;这些改动旨在搭建项目的初始框架，为后续的功能开发和数据操作奠定了基础。" />
+    <MESSAGE value="配置阿里云短信服务访问密钥并优化应用日志打印设置本次提交对`application.yml`文件进行了如下修改：&#10;- 添加了阿里云短信服务的访问密钥`access-key-id`和`access-key-secret`。&#10;- 修改了日志打印配置，去掉了用于调试的注释，并更新了日志实现类为`StdOutImpl`。此外，还对`.idea/workspace.xml`文件进行了修订，更新了GitHub拉取请求的过滤条件和选定的URL及账户ID，以及重置了工作区的一些其他设置。通过这些改动，我们优化了应用的配置，增强了日志记录的能力，并确保了阿里云短信服务的正常使用。" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置阿里云短信服务访问密钥并优化应用日志打印设置本次提交对`application.yml`文件进行了如下修改：&#10;- 添加了阿里云短信服务的访问密钥`access-key-id`和`access-key-secret`。&#10;- 修改了日志打印配置，去掉了用于调试的注释，并更新了日志实现类为`StdOutImpl`。此外，还对`.idea/workspace.xml`文件进行了修订，更新了GitHub拉取请求的过滤条件和选定的URL及账户ID，以及重置了工作区的一些其他设置。通过这些改动，我们优化了应用的配置，增强了日志记录的能力，并确保了阿里云短信服务的正常使用。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
